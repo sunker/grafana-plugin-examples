@@ -9,7 +9,11 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["@grafana/plugin-e2e"],
+      "packagePatterns": ["@grafana/plugin-e2e"],
+      "enabled": true
+    },
+    {
+      "matchPackagePrefixes": ["@grafana/"],
       "enabled": true
     }
   ]
