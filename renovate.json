@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "ignorePaths": [],
-  "enabledManagers": ["npm"]
+  "enabledManagers": ["npm"],
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["@grafana/plugin-e2e"],
+      "enabled": true
+    }
+  ]
 }
