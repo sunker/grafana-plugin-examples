@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "includePaths": ["examples/**"]
-  // "enabledManagers": ["npm"]
+  "includePaths": ["examples/app-basic/**", "datasource-http/**"],
+  "enabledManagers": ["npm"]
 }
