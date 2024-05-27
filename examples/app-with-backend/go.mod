@@ -2,7 +2,7 @@ module github.com/grafana/app-with-backend
 
 go 1.21
 
-toolchain go1.22.1
+toolchain go1.22.3
 
 require github.com/grafana/grafana-plugin-sdk-go v0.227.0
 

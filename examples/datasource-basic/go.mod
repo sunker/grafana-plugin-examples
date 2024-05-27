@@ -2,7 +2,7 @@ module github.com/grafana/basic-datasource
 
 go 1.21
 
-toolchain go1.22.1
+toolchain go1.22.3
 
 require github.com/grafana/grafana-plugin-sdk-go v0.231.0
 

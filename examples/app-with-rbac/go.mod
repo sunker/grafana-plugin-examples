@@ -2,7 +2,7 @@ module github.com/grafana/app-with-rbac
 
 go 1.22
 
-toolchain go1.22.1
+toolchain go1.22.3
 
 require (
 	github.com/grafana/authlib v0.0.0-20240318132843-56180bacf0d3
