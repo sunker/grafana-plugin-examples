@@ -1,13 +1,16 @@
 {
   extends: ['config:base'],
   enabledManagers: ['npm'],
-  includePaths: ['examples'],
+  includePaths: ['examples/**'],
   ignorePaths: ['package.json'],
   labels: ['dependencies'],
   packageRules: [
     {
+      packagePatterns: ['*'],
+      enabled: false,
+    },
+    {
       matchPackageNames: ['@grafana/plugin-e2e'],
-      matchUpdateTypes: ['major', 'minor', 'patch'],
     },
     {
       groupName: 'Grafana packages',
