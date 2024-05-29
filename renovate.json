@@ -11,10 +11,6 @@
     {
       "packagePatterns": ["@grafana/plugin-e2e"],
       "enabled": true
-    },
-    {
-      "matchPackagePrefixes": ["@grafana/"],
-      "enabled": true
     }
   ]
 }
